@@ -1,3 +1,5 @@
+#include <Servo.h>
+
 int pinsCount=10;                        // declaring the integer variable pinsCount
 int pins[] = {2,3,4,5,6,7,8,9,10,11};          // declaring the array pins[]
  

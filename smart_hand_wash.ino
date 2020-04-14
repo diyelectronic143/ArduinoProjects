@@ -1,4 +1,5 @@
 #include <Servo.h>
+
 int val = 0 ;
 Servo s1;
 void setup()
