@@ -7,13 +7,14 @@
 Servo myservo;  // create servo object to control a servo
 bool trig=true;
 
-void setup() {          
-  myservo.attach(9);  // attaches the servo on pin 9 to the servo object
+void setup()
+{
+myservo.attach(9);  // attaches the servo on pin 9 to the servo object
 myservo.write(unpress_angle);   
 }
 
-void loop() {
-
+void loop()
+{
  myservo.write(unpress_angle);              // unpress the button
  delay(1);
  if(analogRead(A0)< threshold)
